@@ -3,31 +3,31 @@ export const exploreWorlds = [
     id: 'world-1',
     imgUrl: '/planet-01.png',
     title: 'NammaMiles',
-    link:'https://car-booking-tau.vercel.app/'
+    link: 'https://car-booking-tau.vercel.app/',
   },
   {
     id: 'world-2',
     imgUrl: '/planet-02.png',
     title: 'NammaBites',
-    link:'https://namma-bites.vercel.app/'
+    link: 'https://namma-bites.vercel.app/',
   },
   {
     id: 'world-3',
     imgUrl: '/planet-03.png',
     title: 'NammaTales',
-    link:'https://travel-sigma-sage.vercel.app/'
+    link: 'https://travel-sigma-sage.vercel.app/',
   },
   {
     id: 'world-4',
     imgUrl: '/planet-04.png',
     title: 'NammaSphere',
-    link:'https://travel-sigma-sage.vercel.app/'
+    link: 'https://travel-sigma-sage.vercel.app/',
   },
   {
     id: 'world-5',
     imgUrl: '/planet-05.png',
     title: 'Games',
-    link: 'https://tic-tac-toe-seven-flax.vercel.app/'
+    link: 'https://tic-tac-toe-seven-flax.vercel.app/',
   },
 ];
 
@@ -40,14 +40,14 @@ export const startingFeatures = [
 
 export const newFeatures = [
   {
-   
+
     title: 'Founding of Bangalore (1537)',
     subtitle:
         'Established by Kempegowda I, a chieftain under the Vijayanagara Empire.Built a mud fort, tanks, markets, and temples.Divided the city into areas for specific purposes, like trade and residences.'
-,
+    ,
   },
   {
-    
+
     title: 'British Era (1799-1947)',
     subtitle:
         'Tipu Sultan was defeated in 1799, and Bangalore was returned to the Wodeyars,Became a British cantonment in 1809.Developed into a military, administrative, and cultural hub.',
