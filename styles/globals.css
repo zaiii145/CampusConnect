@@ -27,10 +27,12 @@
 .hero-gradient {
   background: linear-gradient(
     97.86deg,
-    #ff61a6 0%,
-    #ff77b3 53.65%,
-    #d4a5d9 100%
+    hsl(210deg 70% 20%) 0%,         /* Dark blue */
+    hsl(215deg 70% 30%) 50%,         /* Deep blue */
+    hsl(220deg 65% 50%) 100%         /* Mid blue */
   );
+  
+  
 }
 
 .gradient-02 {

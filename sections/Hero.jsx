@@ -23,7 +23,6 @@ const Hero = () => (
           className="flex flex-row justify-center items-center"
         >
           <h1 className={styles.heroHeading}>T</h1>
-          {/* <div className={styles.heroTText} /> */}
           <h1 className={styles.heroHeading}>rails</h1>
         </motion.div>
       </div>
@@ -32,15 +31,13 @@ const Hero = () => (
         variants={slideIn('right', 'tween', 0.2, 1)}
         className="relative w-full md:-mt-[20px] -mt-[12px]"
       >
-        <div className="absolute w-full h-[200px] hero-gradient rounded-tl-[140px] z-[0] -top-[30px]" />
+        <div className="absolute w-full h-[300px] hero-gradient rounded-tl-[140px] z-[0] -top-[30px]" />
 
         <img
-  src="/cover.png"
-  alt="hero_cover"
-  className="w-full sm:h-[500px] h-[350px] object-contain rounded-tl-[140px] z-10 relative"
-/>
-
-
+          src="/cover.png"
+          alt="hero_cover"
+          className="w-full sm:h-[500px] h-[350px] object-cover rounded-tl-[140px] z-10 relative"
+        />
 
         <a href="#explore">
           <div className="w-full flex justify-end sm:-mt-[70px] -mt-[50px] pr-[40px] relative z-10">
