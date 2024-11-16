@@ -41,6 +41,17 @@ const GetStarted = () => (
             />
           ))}
         </div>
+        {/* Add the button below the features */}
+        <div className="mt-[100px] flex justify-center">
+          <a
+            href="https://namma-echo.vercel.app/" // Replace with your deployed link
+            target="_blank"
+            rel="noopener noreferrer"
+            className="px-8 py-3 bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 text-white text-lg font-semibold rounded-lg shadow-lg hover:from-blue-600 hover:via-blue-700 hover:to-blue-800 hover:scale-105 transition-transform duration-300 ease-in-out"
+          >
+            NammaEcho
+          </a>
+        </div>
       </motion.div>
     </motion.div>
   </section>
