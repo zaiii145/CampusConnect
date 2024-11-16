@@ -27,9 +27,9 @@ export const exploreWorlds = [
 ];
 
 export const startingFeatures = [
-  'Find a world that suits you and you want to enter',
-  'Enter the world by reading basmalah to be safe',
-  'No need to beat around the bush, just stay on the gas and have fun',
+  'Chit-Chat: For casual conversations and local interactions',
+  'Grub Talk: For food-related terms and dining lingo',
+  'Wanderlust: For travel and navigation-related expressions',
 ];
 
 export const newFeatures = [
