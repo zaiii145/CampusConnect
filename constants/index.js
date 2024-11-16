@@ -3,6 +3,7 @@ export const exploreWorlds = [
     id: 'world-1',
     imgUrl: '/planet-01.png',
     title: 'NammaMiles',
+    link:'https://car-booking-tau.vercel.app/'
   },
   {
     id: 'world-2',
@@ -13,30 +14,29 @@ export const exploreWorlds = [
   {
     id: 'world-3',
     imgUrl: '/planet-03.png',
-    title: 'NammaTails',
+    title: 'NammaTales',
+    link:'https://travel-sigma-sage.vercel.app/'
   },
   {
     id: 'world-4',
     imgUrl: '/planet-04.png',
     title: 'NammaSphere',
+    link:'https://travel-sigma-sage.vercel.app/'
   },
   {
     id: 'world-5',
     imgUrl: '/planet-05.png',
     title: 'NammaNomad',
+    link: 'https://tic-tac-toe-seven-flax.vercel.app/'
   },
 ];
 
 export const startingFeatures = [
-<<<<<<< HEAD
+
   'Chit-Chat: For casual conversations and local interactions',
   'Grub Talk: For food-related terms and dining lingo',
   'Wanderlust: For travel and navigation-related expressions',
-=======
-  'hello',
-  'Enter the world by reading basmalah to be safe',
-  'No need to beat around the bush, just stay on the gas and have fun',
->>>>>>> 7b6ba15ff08e05bcd12e998583449e45c366ae50
+
 ];
 
 export const newFeatures = [
