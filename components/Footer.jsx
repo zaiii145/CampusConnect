@@ -6,6 +6,13 @@ import { socials } from '../constants';
 import styles from '../styles';
 import { footerVariants } from '../utils/motion';
 
+const scrollToTop = () => {
+  window.scrollTo({
+    top: 0,
+    behavior: 'smooth',  // Smooth scroll effect
+  });
+};
+
 const Footer = () => (
   <motion.footer
     variants={footerVariants}
@@ -17,18 +24,22 @@ const Footer = () => (
     <div className={`${styles.innerWidth} mx-auto flex flex-col gap-8`}>
       <div className="flex items-center justify-between flex-wrap gap-5">
         <h4 className="font-bold md:text-[64px] text-[44px] text-white">
-          Enter the Metaverse
+          Explore Bengaluru
         </h4>
-        <button type="button" className="flex items-center h-fit py-4 px-6 bg-[#25618B] rounded-[32px] gap-[12px]">
-          <img
-            src="/headset.svg"
-            alt="headset"
-            className="w-[24px] h-[24px] object-contain"
-          />
-          <span className="font-normal text-[16px] text-white">
-            Enter Metaverse
-          </span>
-        </button>
+        <button
+            type="button"
+            className="flex items-center h-fit py-4 px-6 bg-[#25618B] rounded-[32px] gap-[12px]"
+            onClick={scrollToTop} // Trigger scrollToTop on click
+          >
+            <img
+              src="/headset.svg"
+              alt="headset"
+              className="w-[24px] h-[24px] object-contain"
+            />
+            <span className="font-normal text-[16px] text-white">
+              Back to Top
+            </span>
+          </button>
       </div>
 
       <div className="flex flex-col">
@@ -36,22 +47,31 @@ const Footer = () => (
 
         <div className="flex items-center justify-between flex-wrap gap-4">
           <h4 className="font-extrabold text-[24px] text-white">
-            METAVERUS
+            Namma Trails
           </h4>
           <p className="font-normal text-[14px] text-white opacity-50">
-            Copyright © 2021 - 2022 Metaversus. All rights reserved.
+            Copyright © 2024 Namma Trails. All rights reserved.
           </p>
 
           <div className="flex gap-4">
             {socials.map((social) => (
-              <img
+              <a
                 key={social.name}
-                src={social.url}
-                alt={social.name}
+                href={social.url}        // Use the URL from the socials array
+                target="_blank"          // Open in a new tab
+                rel="noopener noreferrer" // Security measure for opening in new tab
                 className="w-[24px] h-[24px] object-contain cursor-pointer"
-              />
+              >
+                <img
+                    // Ensure you have the icons in /public/icons/
+                  src={`/linkedin1.svg`}
+                  alt={social.name}
+                  className="w-[24px] h-[24px] object-contain"
+                />
+              </a>
             ))}
           </div>
+        
         </div>
       </div>
     </div>
