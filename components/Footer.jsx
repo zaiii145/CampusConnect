@@ -9,7 +9,7 @@ import { footerVariants } from '../utils/motion';
 const scrollToTop = () => {
   window.scrollTo({
     top: 0,
-    behavior: 'smooth',  // Smooth scroll effect
+    behavior: 'smooth',
   });
 };
 
@@ -27,19 +27,19 @@ const Footer = () => (
           Explore Bengaluru
         </h4>
         <button
-            type="button"
-            className="flex items-center h-fit py-4 px-6 bg-[#25618B] rounded-[32px] gap-[12px]"
-            onClick={scrollToTop} // Trigger scrollToTop on click
-          >
-            <img
-              src="/headset.svg"
-              alt="headset"
-              className="w-[24px] h-[24px] object-contain"
-            />
-            <span className="font-normal text-[16px] text-white">
-              Back to Top
-            </span>
-          </button>
+          type="button"
+          className="flex items-center h-fit py-4 px-6 bg-[#25618B] rounded-[32px] gap-[12px]"
+          onClick={scrollToTop}
+        >
+          <img
+            src="/headset.svg"
+            alt="headset"
+            className="w-[24px] h-[24px] object-contain"
+          />
+          <span className="font-normal text-[16px] text-white">
+            Back to Top
+          </span>
+        </button>
       </div>
 
       <div className="flex flex-col">
@@ -57,21 +57,19 @@ const Footer = () => (
             {socials.map((social) => (
               <a
                 key={social.name}
-                href={social.url}        // Use the URL from the socials array
-                target="_blank"          // Open in a new tab
-                rel="noopener noreferrer" // Security measure for opening in new tab
+                href={social.url}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="w-[24px] h-[24px] object-contain cursor-pointer"
               >
                 <img
-                    // Ensure you have the icons in /public/icons/
-                  src={`/linkedin1.svg`}
+                  src="/linkedin1.svg"
                   alt={social.name}
                   className="w-[24px] h-[24px] object-contain"
                 />
               </a>
             ))}
           </div>
-        
         </div>
       </div>
     </div>

@@ -1,3 +1,10 @@
 {
-  "extends": "next/core-web-vitals"
+  "extends": "next/core-web-vitals",
+  "rules": {
+    "react/jsx-indent": "off",
+    "react/jsx-curly-brace-presence": "off",
+    "quotes": ["error", "single"],
+    "no-trailing-spaces": "error"
+  }
 }
+
