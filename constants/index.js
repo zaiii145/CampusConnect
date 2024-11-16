@@ -36,7 +36,6 @@ export const startingFeatures = [
   'Chit-Chat: For casual conversations and local interactions',
   'Grub Talk: For food-related terms and dining lingo',
   'Wanderlust: For travel and navigation-related expressions',
-
 ];
 
 export const newFeatures = [
