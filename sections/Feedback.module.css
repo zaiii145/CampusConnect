@@ -1,0 +1,87 @@
+
+.paddings {
+    padding: 2rem 1rem;
+  }
+  
+  .innerWidth {
+    width: 100%;
+    max-width: 1200px;
+  }
+  
+  .flex {
+    display: flex;
+  }
+  
+  .flex-col {
+    flex-direction: column;
+  }
+  
+  .flex-row {
+    flex-direction: row;
+  }
+  
+  .gap-6 {
+    gap: 1.5rem;
+  }
+  
+  .mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .items-center {
+    align-items: center;
+  }
+  
+  .justify-center {
+    justify-content: center;
+  }
+  
+  .card {
+    flex: 0.3;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    border-radius: 32px;
+    border: 1px solid #6a6a6a;
+    position: relative;
+  }
+  
+  .imageContainer {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 1rem;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+  
+  .image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .name {
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+  }
+  
+  .role {
+    font-weight: normal;
+    font-size: 14px;
+    text-align: center;
+    color: white;
+  }
+  
+  /* Responsive styles */
+  @media (min-width: 768px) {
+    .lg\:flex-row {
+      flex-direction: row;
+    }
+   
+  }
+  
