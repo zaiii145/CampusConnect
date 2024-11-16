@@ -26,7 +26,7 @@ export const exploreWorlds = [
   {
     id: 'world-5',
     imgUrl: '/planet-05.png',
-    title: 'NammaNomad',
+    title: 'Games',
     link: 'https://tic-tac-toe-seven-flax.vercel.app/'
   },
 ];
@@ -41,37 +41,38 @@ export const startingFeatures = [
 
 export const newFeatures = [
   {
-    imgUrl: '/vrpano.svg',
-    title: 'A new world',
+   
+    title: 'Founding of Bangalore (1537)',
     subtitle:
-        'we have the latest update with new world for you to try never mind',
+        'Established by Kempegowda I, a chieftain under the Vijayanagara Empire.Built a mud fort, tanks, markets, and temples.Divided the city into areas for specific purposes, like trade and residences.'
+,
   },
   {
-    imgUrl: '/headset.svg',
-    title: 'More realistic',
+    
+    title: 'British Era (1799-1947)',
     subtitle:
-        'In the latest update, your eyes are narrow, making the world more realistic than ever',
+        'Tipu Sultan was defeated in 1799, and Bangalore was returned to the Wodeyars,Became a British cantonment in 1809.Developed into a military, administrative, and cultural hub.',
   },
 ];
 
 export const insights = [
   {
     imgUrl: '/planet-06.png',
-    title: 'The launch of bengaluru',
+    title: ' The Velvet Note ',
     subtitle:
-        'Magna etiam tempor orci eu lobortis elementum nibh tellus molestie. Diam maecenas sed enim ut sem viverra alique.',
+        'Join us for Tipsy Jazz Nights, featuring the captivating sounds of Jazz. Let the tunes set the mood as you enjoy our crafted cocktails, delectable small plates, and an inviting atmosphere that creates an experience you won’t soon forget.',
   },
   {
     imgUrl: '/planet-07.png',
-    title: '7 tips to easily master the madness of the Metaverse',
+    title: 'Secrets of the Magician’s Hat',
     subtitle:
-        'Vitae congue eu consequat ac felis donec. Et magnis dis parturient montes nascetur ridiculus mus. Convallis tellus id interdum',
+        'The World Famous Magician P.C. Sorcar (Porush) is in town, casting a Spell-binding performance through his Mega Magic Show.This time P.C.Sorcar (Porush) is performing in Bengaluru after 5 years at Town Hall (.J.C.Road) on November 9th, 10th,16th , 17th & 18th 2024',
   },
   {
     imgUrl: '/planet-08.png',
-    title: 'With one platform you can explore the whole world virtually',
+    title: 'Melody & Rhythm: Live!',
     subtitle:
-        'Quam quisque id diam vel quam elementum. Viverra nam libero justo laoreet sit amet cursus sit. Mauris in aliquam sem',
+        'Get ready to travel back in time and relive the golden era of Bollywood! On November 18, immerse yourself in an unforgettable musical journey featuring the biggest hits from the 70s, 80s, and 90s. From soulful melodies to foot-tapping beats, Ek Shaam Mastani promises an evening filled with nostalgia, live performances, and electrifying energy.',
   },
 ];
 
