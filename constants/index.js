@@ -27,15 +27,9 @@ export const exploreWorlds = [
 ];
 
 export const startingFeatures = [
-<<<<<<< HEAD
   'Chit-Chat: For casual conversations and local interactions',
   'Grub Talk: For food-related terms and dining lingo',
   'Wanderlust: For travel and navigation-related expressions',
-=======
-  'hello',
-  'Enter the world by reading basmalah to be safe',
-  'No need to beat around the bush, just stay on the gas and have fun',
->>>>>>> 7b6ba15ff08e05bcd12e998583449e45c366ae50
 ];
 
 export const newFeatures = [
