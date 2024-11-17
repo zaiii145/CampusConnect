@@ -4,7 +4,6 @@ import { motion } from 'framer-motion';
 
 import styles from './Feedback.module.css'; // Assuming you're using a CSS Module
 import { fadeIn, staggerContainer, zoomIn } from '../utils/motion';
-
 const teamMembers = [
   {
     id: 1,
