@@ -9,13 +9,13 @@ export const exploreWorlds = [
     id: 'world-2',
     imgUrl: '/planet-02.png',
     title: 'NammaBites',
-    link: 'https://namma-bites.vercel.app/',
+    link: 'https://namma-bites-ebon.vercel.app/',
   },
   {
     id: 'world-3',
     imgUrl: '/planet-03.png',
-    title: 'NammaTales',
-    link: 'https://travel-sigma-sage.vercel.app/',
+    title: 'LocalLingo',
+    link: 'https://translator-five.vercel.app/',
   },
   {
     id: 'world-4',
