@@ -49,7 +49,9 @@ The project is live and deployed on Vercel, where you can access it via the prov
 App Flow
 Home Page:
 
-![Home](project_metaverse-main/public/first page.jpg)
+<img src="project_metaverse-main/public/first page.jpg" alt="Alt Text" width="300" />
+
+![Home]("public/first page.jpg")
 
 ![About](project_metaverse-main/public/about.jpg)
 
