@@ -49,58 +49,37 @@ The project is live and deployed on Vercel, where you can access it via the prov
 App Flow
 Home Page:
 
-![Home](project_metaverse-main\public\first page.jpg)
-
-![About](project_metaverse-main\public\about.jpg)
-
-
 The explore presents a brief overview of the features and the main navigation to explore different sections of the app.
 
 NammaMile (Car Booking):
-
-![NammaMiles](project_metaverse-main\public\NammaMiles.jpg)
 
 Users can browse and book cars within the city. Integration with booking APIs or mock data allows users to find the best options based on their needs.
 
 NammaBites (Local Cuisine):
 
-![NammaBites](project_metaverse-main\public\nammaBites cuisine recommendation.jpg)
-
 This section features a collection of Bengaluru's popular food items and eateries. Users can filter based on cuisine type, price, or proximity.
 
 LocalLingo (Language Translator):
-
-![Translator](project_metaverse-main\public\Translator.jpg)
 
 This tool helps users translate words or phrases from English to Kannada. It’s perfect for travelers or newcomers to Bengaluru who want to learn the local language.
 
 NammaSphere (Itinerary Planner):
 
-![Iternary](project_metaverse-main\public\NammaSphere - Iternary .jpg)
-
 Users can plan their trips around Bengaluru by selecting popular attractions, restaurants, and events. The itinerary can be customized based on their interests.
 
 NammaNomad (Interactive Games):
-
-![NammaNomad - Treasure Hunt](project_metaverse-main\public\treasure hunt.jpg)
 
 Engaging games like quizzes and puzzles about Bengaluru's culture, history, and places make learning fun and interactive.
 
 NammaExplorer (Geo-based Places):
 
-![Explorer](project_metaverse-main\public\locator.jpg)
-
 The app uses geolocation to show famous landmarks around Bengaluru. It includes maps and markers for easy navigation.
 
 NammaEcho (Flashcards):
 
-![NammaEcho](project_metaverse-main\public\NammaEcho - LocalLingo.jpg)
-
 Flashcards with common Kannada phrases help users practice the language. This feature includes audio, meaning, and example usage.
 
 Bengaluru Insights:
-
-![Insights](project_metaverse-main\public\Workshops and Events .jpg)
 
 Offers a dashboard of insights about the city, including economic, cultural, and social statistics to give users a deeper understanding of Bengaluru.
 
@@ -132,3 +111,5 @@ Create a new branch (git checkout -b feature-name).
 Commit your changes (git commit -am 'Add new feature').
 Push to the branch (git push origin feature-name).
 Create a new Pull Request.
+License
+This project is licensed under the MIT License - see the LICENSE file for details.
