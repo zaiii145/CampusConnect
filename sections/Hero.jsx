@@ -1,4 +1,5 @@
 'use client';
+import { SignInButton, SignUpButton, UserButton } from '@clerk/nextjs';
 
 import { motion } from 'framer-motion';
 
