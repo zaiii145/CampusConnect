@@ -16,19 +16,9 @@ const Navbar = () => (
     <div
       className={`${styles.innerWidth} mx-auto flex justify-between gap-8`}
     >
-      <img
-        src="/search.svg"
-        alt="search"
-        className="w-[24px] h-[24px] object-contain"
-      />
       <h2 className="font-extrabold text-[24px] leading-[30.24px] text-white">
         NammaTrails
       </h2>
-      <img
-        src="/menu.svg"
-        alt="menu"
-        className="w-[24px] h-[24px] object-contain"
-      />
     </div>
   </motion.nav>
 );

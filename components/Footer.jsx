@@ -49,10 +49,6 @@ const Footer = () => (
           <h4 className="font-extrabold text-[24px] text-white">
             Namma Trails
           </h4>
-          <p className="font-normal text-[14px] text-white opacity-50">
-            Copyright © 2024 Namma Trails. All rights reserved.
-          </p>
-
           <div className="flex gap-4">
             {socials.map((social) => (
               <a

@@ -26,8 +26,8 @@ export const exploreWorlds = [
   {
     id: 'world-5',
     imgUrl: '/planet-05.png',
-    title: 'Games',
-    link: 'https://tic-tac-toe-seven-flax.vercel.app/',
+    title: 'NammaNomad',
+    link: 'https://treasure-hunt-g6cl.vercel.app/',
   },
 ];
 
@@ -60,18 +60,21 @@ export const insights = [
     title: ' The Velvet Note ',
     subtitle:
         'Join us for Tipsy Jazz Nights, featuring the captivating sounds of Jazz. Let the tunes set the mood as you enjoy our crafted cocktails, delectable small plates, and an inviting atmosphere that creates an experience you won’t soon forget.',
+    link:'https://insider.in/tipsy-jazz-nights-by-the-drawing-room-smoke-house-deli-november24-iehpl/event'
   },
   {
     imgUrl: '/planet-07.png',
     title: 'Secrets of the Magician’s Hat',
     subtitle:
         'The World Famous Magician P.C. Sorcar (Porush) is in town, casting a Spell-binding performance through his Mega Magic Show.This time P.C.Sorcar (Porush) is performing in Bengaluru after 5 years at Town Hall (.J.C.Road) on November 9th, 10th,16th , 17th & 18th 2024',
+    link:'https://in.bookmyshow.com/events/p-c-sorcar-pourush-magic-show/ET00411598'
   },
   {
     imgUrl: '/planet-08.png',
     title: 'Melody & Rhythm: Live!',
     subtitle:
         'Get ready to travel back in time and relive the golden era of Bollywood! On November 18, immerse yourself in an unforgettable musical journey featuring the biggest hits from the 70s, 80s, and 90s. From soulful melodies to foot-tapping beats, Ek Shaam Mastani promises an evening filled with nostalgia, live performances, and electrifying energy.',
+    link:'https://insider.in/ek-shaam-mastani-nov16-2024/event '
   },
 ];
 
