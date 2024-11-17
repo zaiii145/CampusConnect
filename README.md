@@ -51,11 +51,11 @@ Home Page:
 
 The explore presents a brief overview of the features and the main navigation to explore different sections of the app.
 
-NammaMile (Car Booking):
+NammaMile (Car Booking): GitHub - https://github.com/Greeshma-10/car_booking
 
 Users can browse and book cars within the city. Integration with booking APIs or mock data allows users to find the best options based on their needs.
 
-NammaBites (Local Cuisine):
+NammaBites (Local Cuisine): 
 
 This section features a collection of Bengaluru's popular food items and eateries. Users can filter based on cuisine type, price, or proximity.
 
@@ -63,7 +63,7 @@ LocalLingo (Language Translator):
 
 This tool helps users translate words or phrases from English to Kannada. It’s perfect for travelers or newcomers to Bengaluru who want to learn the local language.
 
-NammaSphere (Itinerary Planner):
+NammaSphere (Itinerary Planner): https://github.com/Himanshi189/travel
 
 Users can plan their trips around Bengaluru by selecting popular attractions, restaurants, and events. The itinerary can be customized based on their interests.
 
@@ -71,7 +71,7 @@ NammaNomad (Interactive Games):
 
 Engaging games like quizzes and puzzles about Bengaluru's culture, history, and places make learning fun and interactive.
 
-NammaExplorer (Geo-based Places):
+NammaExplorer (Geo-based Places): https://github.com/Greeshma-10/nammaBites
 
 The app uses geolocation to show famous landmarks around Bengaluru. It includes maps and markers for easy navigation.
 
