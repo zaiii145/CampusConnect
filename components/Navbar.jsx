@@ -17,7 +17,7 @@ const Navbar = () => (
       className={`${styles.innerWidth} mx-auto flex justify-between gap-8`}
     >
       <h2 className="font-extrabold text-[24px] leading-[30.24px] text-white">
-        NammaTrails
+        CampusConnect
       </h2>
     </div>
   </motion.nav>

@@ -1,32 +1,31 @@
 export const exploreWorlds = [
   {
     id: 'world-1',
-    imgUrl: '/planet-01.png',
-    title: 'NammaMiles',
+    imgUrl: '/OIP.png',
+    title: 'Technical events',
     link: 'https://car-booking-tau.vercel.app/',
   },
   {
     id: 'world-2',
     imgUrl: '/planet-02.png',
-    title: 'NammaBites',
+    title: 'Cultural Events',
     link: 'https://namma-bites-ebon.vercel.app/',
   },
   {
     id: 'world-3',
-    imgUrl: '/planet-03.png',
-    title: 'LocalLingo',
+  
+    title: 'Workshops',
     link: 'https://translator-five.vercel.app/',
   },
   {
     id: 'world-4',
-    imgUrl: '/planet-04.png',
-    title: 'NammaSphere',
+    
+    title: 'Confrences',
     link: 'https://travel-sigma-sage.vercel.app/',
   },
   {
     id: 'world-5',
-    imgUrl: '/planet-05.png',
-    title: 'NammaNomad',
+    title: 'Miscellaneous',
     link: 'https://treasure-hunt-g6cl.vercel.app/',
   },
 ];
